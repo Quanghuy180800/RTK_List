@@ -1,0 +1,25 @@
+.App{
+  text-align: center;
+}
+#user {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#user td, #user th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 16px;
+}
+
+#user tr:nth-child(even){background-color: rgb(247, 230, 197);}
+
+#user tr:hover {background-color: #ddd;}
+
+#user th {
+padding: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
